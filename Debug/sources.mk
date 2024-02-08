@@ -20,6 +20,7 @@ component/uart \
 device \
 drivers \
 mdio \
+mmcau \
 phy \
 source \
 startup \

@@ -1,0 +1,5 @@
+../source/ethernet_layer.c:52:10:ENET0_GetFreq	8	static
+../source/ethernet_layer.c:57:6:ENET_SignalEvent_t	24	static
+../source/ethernet_layer.c:84:13:ENET_BuildBroadCastFrame	24	static
+../source/ethernet_layer.c:107:6:ethernet_init	24	static
+../source/ethernet_layer.c:144:10:ethernet_send	24	static

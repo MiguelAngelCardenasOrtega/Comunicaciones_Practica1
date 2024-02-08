@@ -1,0 +1,7 @@
+../source/custom_layer.c:44:13:InitCrc16_CcittFalse	32	static
+../source/custom_layer.c:68:17:calculate_crc	24	static
+../source/custom_layer.c:79:13:add_padding	24	static
+../source/custom_layer.c:89:17:remove_padding	24	static
+../source/custom_layer.c:112:10:custom_layer_send	40	static
+../source/custom_layer.c:148:6:ENET_callback	40	static
+../source/custom_layer.c:190:6:custom_layer_init	16	static

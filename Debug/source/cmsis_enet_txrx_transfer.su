@@ -2,4 +2,4 @@ C:\Users\mcardenas\Documents\MCUXpressoIDE_11.6.1_8255\Iteso\frdmk64f_cmsis_enet
 ../source/cmsis_enet_txrx_transfer.c:65:10:ENET0_GetFreq	8	static
 ../source/cmsis_enet_txrx_transfer.c:70:6:ENET_SignalEvent_t	32	static
 ../source/cmsis_enet_txrx_transfer.c:106:13:ENET_BuildBroadCastFrame	16	static
-../source/cmsis_enet_txrx_transfer.c:125:5:main	16	static
+../source/cmsis_enet_txrx_transfer.c:125:5:main_2	16	static

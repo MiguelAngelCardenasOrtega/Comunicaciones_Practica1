@@ -1,0 +1,2 @@
+../mmcau/mmcau_api.c:33:5:mmcau_encrypt_aes_cbc	320	static
+../mmcau/mmcau_api.c:141:5:mmcau_decrypt_aes_cbc	320	static

@@ -12,6 +12,7 @@ RM := rm -rf
 -include startup/subdir.mk
 -include source/subdir.mk
 -include phy/subdir.mk
+-include mmcau/subdir.mk
 -include mdio/subdir.mk
 -include drivers/subdir.mk
 -include device/subdir.mk
@@ -52,7 +53,7 @@ main-build: frdmk64f_cmsis_enet_txrx_transfer.axf
 frdmk64f_cmsis_enet_txrx_transfer.axf: $(OBJS) $(USER_OBJS) makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -Xlinker -Map="frdmk64f_cmsis_enet_txrx_transfer.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T frdmk64f_cmsis_enet_txrx_transfer_Debug.ld -o "frdmk64f_cmsis_enet_txrx_transfer.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"C:\Users\mcardenas\Documents\MCUXpressoIDE_11.6.1_8255\Iteso\frdmk64f_cmsis_enet_txrx_transfer\mmcau\asm-cm4-cm7" -Xlinker -Map="frdmk64f_cmsis_enet_txrx_transfer.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T frdmk64f_cmsis_enet_txrx_transfer_Debug.ld -o "frdmk64f_cmsis_enet_txrx_transfer.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
